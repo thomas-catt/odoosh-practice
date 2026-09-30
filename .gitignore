@@ -26,6 +26,6 @@ logs/
 *.sqlite3
 *.db
 
-# Ignore generated modules when not tracked
-custom_addons/*
-!custom_addons/.gitkeep
+# Custom addons should be tracked in Git
+# Add any local untracked modules or scratch files below if needed
+
