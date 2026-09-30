@@ -1,0 +1,31 @@
+# Odoo build/runtime
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local data
+filestore/
+logs/
+
+# GitHub / Odoo.sh local state
+*.sqlite3
+*.db
+
+# Ignore generated modules when not tracked
+custom_addons/*
+!custom_addons/.gitkeep
